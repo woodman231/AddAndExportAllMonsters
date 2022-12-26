@@ -43,7 +43,7 @@ After you have installed and ran BepInEx at least once take the following action
   * System.Runtime.Serialization.dll
   * System.Runtime.Serialization.Primatives.dll
 
-- As a result I copied them to this projects directory and set them to copy always. These were random versions that I found on my computer. I couldn't figure out a way to ensure taht the same ones Newtonsoft.Json wanted / were using to compile in to the project so I went that route for now.
+- As a result I copied them to this projects directory and set them to copy always. These were random versions that I found on my computer. I couldn't figure out a way to ensure that the same ones Newtonsoft.Json wanted / were using to compile in to the project so I went that route for now.
 
 - Once upon a time I thought it would be a good idea to export each shift of the monster to it's own file, but I changed my mind on that. However, I still left in the code that would add all monsters of all shifts just to play around with builds.
 
@@ -54,3 +54,5 @@ After you have installed and ran BepInEx at least once take the following action
 - I used allot of List<object> and Dictionary<string, object> types so that I wouldn't have to know / analyze the properties of each type of PassiveSkill and just loop over their fields and try to get the gameObject as that type, then adhock created the Diction<string, object> and added the results of it to the List<object>
 
 - I would agree that it would have been better to start with some model classes that represented the data that I wanted: however, I didn't know what I needed to know. So this is how I found out. I may back track and create classes, but as you can tell the objects are pretty complex.
+
+- This was inspired by [https://github.com/Eradev/MonsterSanctuaryMods](https://github.com/Eradev/MonsterSanctuaryMods)
