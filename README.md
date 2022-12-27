@@ -56,3 +56,5 @@ After you have installed and ran BepInEx at least once take the following action
 - I would agree that it would have been better to start with some model classes that represented the data that I wanted: however, I didn't know what I needed to know. So this is how I found out. I may back track and create classes, but as you can tell the objects are pretty complex.
 
 - This was inspired by [https://github.com/Eradev/MonsterSanctuaryMods](https://github.com/Eradev/MonsterSanctuaryMods)
+
+- If you are just looking for the results of running this export then see this repository [https://github.com/woodman231/ExportedMonsterSanctuaryData](https://github.com/woodman231/ExportedMonsterSanctuaryData)
