@@ -58,3 +58,7 @@ After you have installed and ran BepInEx at least once take the following action
 - This was inspired by [https://github.com/Eradev/MonsterSanctuaryMods](https://github.com/Eradev/MonsterSanctuaryMods)
 
 - If you are just looking for the results of running this export then see this repository [https://github.com/woodman231/ExportedMonsterSanctuaryData](https://github.com/woodman231/ExportedMonsterSanctuaryData)
+  
+- If you are looking for a sample web application that uses this data check out the [ExportedMonsterSanctuaryDataExplorer GitHub repository](https://github.com/woodman231/ExportedMonsterSanctuaryDataExplorer) or the running site @ [https://woodman231.github.io/ExportedMonsterSanctuaryDataExplorer](https://woodman231.github.io/ExportedMonsterSanctuaryDataExplorer)
+  
+DISCLAIMER: This package was made by a fan of the game. I am not associated with [Moi Rai Games](https://monster-sanctuary.com/) the developer, nor [Team 17](https://www.team17.com/) the distributor.
